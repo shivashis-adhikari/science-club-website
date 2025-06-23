@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Club - Rato Bangala School</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- made by shivashis, class of '26-->
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="header-top-section">
+            <div class="logo-container" style="display: flex; align-items: center;">
+                <div style="background: #fff; border-radius: 50%; padding: 10px; display: inline-block; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+                    <img src="./logo.png" alt="RBS Logo" id="rbslogo" style="display: block; border-radius: 50%; width: 60px; height: 60px; object-fit: cover;">
+                </div>
+            </div>
+            <div class="title-and-search">
+                <h1>Science Club of Rato Bangala School</h1>
+                <div class="search-container">
+                    <input type="text" id="searchBar" placeholder="Search for papers...">
+                    <button id="searchButton">Search</button>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <!-- other nav here-->
+        </nav>
+    </header>
+
+    <main>
+        <section id="physics-papers" class="paper-section">
+            <h2>Physics</h2>
+            <div class="papers-container">
+                <!-- paper items will be auto added from papers.json -->
+            </div>
+        </section>
+
+        <section id="biology-papers" class="paper-section">
+            <h2>Biology</h2>
+            <div class="papers-container">
+                <!-- paper items will be auto added from papers.json -->
+            </div>
+        </section>
+
+        <section id="chemistry-papers" class="paper-section">
+            <h2>Chemistry</h2>
+            <div class="papers-container">
+                <!-- paper items will be auto added from papers.json -->
+            </div>
+        </section>
+
+        <section id="others-papers" class="paper-section">
+            <h2>Others</h2>
+            <div class="papers-container">
+                <!-- paper items will be auto added from papers.json -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="footerYear">dynamic_year</span> Rato Bangala School Science Club</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('footerYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

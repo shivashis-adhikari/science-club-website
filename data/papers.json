@@ -1,0 +1,74 @@
+{
+  "physics": [
+    {
+      "id": "p1",
+      "title": "Dummy Physics Paper 1",
+      "author": "Author A",
+      "cover": "",
+      "pdf": "papers/physics_paper1.pdf",
+      "keywords": ["physics", "dummy", "paper"]
+    },
+    {
+      "id": "p2",
+      "title": "Dummy Physics Paper 2",
+      "author": "Author B",
+      "cover": "",
+      "pdf": "papers/physics_paper2.pdf",
+      "keywords": ["physics", "dummy", "paper"]
+    }
+  ],
+  "biology": [
+    {
+      "id": "b1",
+      "title": "Dummy Biology Paper 1",
+      "author": "Author C",
+      "cover": "",
+      "pdf": "papers/biology_paper1.pdf",
+      "keywords": ["biology", "dummy", "paper"]
+    },
+    {
+      "id": "b2",
+      "title": "Dummy Biology Paper 2",
+      "author": "Author D",
+      "cover": "",
+      "pdf": "papers/biology_paper2.pdf",
+      "keywords": ["biology", "dummy", "paper"]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": "c1",
+      "title": "Dummy Chemistry Paper 1",
+      "author": "Author E",
+      "cover": "",
+      "pdf": "papers/chemistry_paper1.pdf",
+      "keywords": ["chemistry", "dummy", "paper"]
+    },
+    {
+      "id": "c2",
+      "title": "Dummy Chemistry Paper 2",
+      "author": "Author F",
+      "cover": "",
+      "pdf": "papers/chemistry_paper2.pdf",
+      "keywords": ["chemistry", "dummy", "paper"]
+    }
+  ],
+  "others": [
+    {
+      "id": "o1",
+      "title": "Dummy Other Paper 1",
+      "author": "Author G",
+      "cover": "",
+      "pdf": "papers/other_paper1.pdf",
+      "keywords": ["other", "dummy", "paper"]
+    },
+    {
+      "id": "o2",
+      "title": "Dummy Other Paper 2",
+      "author": "Author H",
+      "cover": "",
+      "pdf": "papers/other_paper2.pdf",
+      "keywords": ["other", "dummy", "paper"]
+    }
+  ]
+}

@@ -15,6 +15,22 @@ document.addEventListener('DOMContentLoaded', () => {
         imageContainer.classList.add('image-container');
 
         const img = document.createElement('img');
+        
+        // Set the image source and handle missing covers
+        if (paper.cover && paper.cover.trim() !== "") {
+            img.src = paper.cover;
+            img.alt = `Cover for ${paper.title}`;
+        } else {
+            // Set a placeholder for papers without covers
+            img.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDM1MCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzNTAiIGhlaWdodD0iMjUwIiBmaWxsPSIjZjBmOGZmIi8+CjxwYXRoIGQ9Ik0xMjUgODVIMjI1VjE2NUgxMjVWODVaIiBzdHJva2U9IiMwNTU2YTYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMTAiIHI9IjE1IiBzdHJva2U9IiMwNTU2YTYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMTM1IDEzNUwxNTAgMTIwTDE2NSAxMzVMMTkwIDExMEwyMTAgMTMwVjE1MEgxNDBMMTM1IDEzNVoiIHN0cm9rZT0iIzA1NTZhNiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjx0ZXh0IHg9IjE3NSIgeT0iMTkwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM5OTkiPk5vIEltYWdlPC90ZXh0Pgo8L3N2Zz4K';
+            img.alt = `No cover available for ${paper.title}`;
+        }
+        
+        // Handle image loading errors
+        img.onerror = function() {
+            this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDM1MCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzNTAiIGhlaWdodD0iMjUwIiBmaWxsPSIjZjBmOGZmIi8+CjxwYXRoIGQ9Ik0xMjUgODVIMjI1VjE2NUgxMjVWODVaIiBzdHJva2U9IiMwNTU2YTYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMTAiIHI9IjE1IiBzdHJva2U9IiMwNTU2YTYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMTM1IDEzNUwxNTAgMTIwTDE2NSAxMzVMMTkwIDExMEwyMTAgMTMwVjE1MEgxNDBMMTM1IDEzNVoiIHN0cm9rZT0iIzA1NTZhNiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjx0ZXh0IHg9IjE3NSIgeT0iMTkwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM5OTkiPkltYWdlIEVycm9yPC90ZXh0Pgo8L3N2Zz4K';
+            this.alt = 'Image failed to load';
+        };
 
         const textOverlay = document.createElement('div');
         textOverlay.classList.add('text-overlay');

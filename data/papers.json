@@ -2,73 +2,65 @@
   "physics": [
     {
       "id": "p1",
-      "title": "Dummy Physics Paper 1",
-      "author": "Author A",
-      "cover": "",
-      "pdf": "papers/physics_paper1.pdf",
-      "keywords": ["physics", "dummy", "paper"]
-    },
-    {
-      "id": "p2",
-      "title": "Dummy Physics Paper 2",
-      "author": "Author B",
-      "cover": "",
-      "pdf": "papers/physics_paper2.pdf",
-      "keywords": ["physics", "dummy", "paper"]
+      "title": "Tiny Causes, Massive Consequences: Understanding the Butterfly Effect ",
+      "author": "Aditi Shrestha",
+      "cover": "https://miro.medium.com/v2/resize:fit:620/1*9dnALfxoLwTLlECcJMrg5Q.jpeg",
+      "pdf": "https://docs.google.com/document/d/1X_W1Z_G6695H2zqP6fVbVzv4mdlYgSd90WbN5RyPpN0/edit?tab=t.0",
+      "keywords": ["physics", "butterfly effect"]
     }
   ],
   "biology": [
     {
       "id": "b1",
-      "title": "Dummy Biology Paper 1",
-      "author": "Author C",
-      "cover": "",
-      "pdf": "papers/biology_paper1.pdf",
-      "keywords": ["biology", "dummy", "paper"]
+      "title": "The Effects of Sleep Deprivation and Its Role in Causing Hallucinations: A Literature-Based Analysis",
+      "author": "Shayna Shrestha",
+      "cover": "https://i.pinimg.com/736x/df/c0/09/dfc009494856407b44ce3e5160aac6f5.jpg",
+      "pdf": "https://docs.google.com/document/d/1pgfIu5YF64JqKeZiiQTFGL8VO8kUqKuvJMhpAk4orVk/edit?usp=drive_web&ouid=104190726692742252380",
+      "keywords": ["biology", "sleep deprivation", "hallucinations"]
     },
     {
       "id": "b2",
-      "title": "Dummy Biology Paper 2",
-      "author": "Author D",
-      "cover": "",
-      "pdf": "papers/biology_paper2.pdf",
-      "keywords": ["biology", "dummy", "paper"]
+      "title": "Emotions in Animals",
+      "author": "Suhani Ranjitkar",
+      "cover": "https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/04/040922_animal-emotions_feat_extra-headline-space.jpg?resize=1440%2C700&ssl=1",
+      "pdf": "https://docs.google.com/document/d/1_6cWwvyWVSAQpfgm27cnAiIqWJ7mt565rjLM7cRx9K4/edit?tab=t.0",
+      "keywords": ["biology", "emotions", "animals"]
     }
   ],
   "chemistry": [
     {
       "id": "c1",
-      "title": "Dummy Chemistry Paper 1",
-      "author": "Author E",
-      "cover": "",
-      "pdf": "papers/chemistry_paper1.pdf",
-      "keywords": ["chemistry", "dummy", "paper"]
-    },
-    {
-      "id": "c2",
-      "title": "Dummy Chemistry Paper 2",
-      "author": "Author F",
-      "cover": "",
-      "pdf": "papers/chemistry_paper2.pdf",
-      "keywords": ["chemistry", "dummy", "paper"]
+      "title": "Research on Nepal’s Potential Reliance on Hydrogen Fuel",
+      "author": "Manyata Neupane",
+      "cover": "https://meech.com/wp-content/uploads/2024/02/Hydrogen-Fuel-Cell.-Meech.-8-scaled.jpeg",
+      "pdf": "https://docs.google.com/document/d/1fS79u1j50g_lYFhBRlHuFZV-FAXmVvBA/edit",
+      "keywords": ["chemistry", "hydrogen fuel", "Nepal"]
     }
   ],
   "others": [
     {
       "id": "o1",
-      "title": "Dummy Other Paper 1",
-      "author": "Author G",
-      "cover": "",
-      "pdf": "papers/other_paper1.pdf",
-      "keywords": ["other", "dummy", "paper"]
+      "title": "Roads: What Goes Right and What Does Not",
+      "author": "Aashrav Raj Onta",
+      "cover": "https://vincivilworld.com/wp-content/uploads/2020/09/untitled-design-23.png",
+      "pdf": "https://docs.google.com/document/d/1b7Z2j__B9ixXp-0OrIQDEPtvGcJw9TTg/edit",
+      "keywords": ["other", "roads", "infrastructure"]
     },
     {
       "id": "o2",
-      "title": "Dummy Other Paper 2",
-      "author": "Author H",
-      "cover": "",
-      "pdf": "papers/other_paper2.pdf",
-      "keywords": ["other", "dummy", "paper"]
+      "title": "Understanding the logic of a tree diagram through the means of combinatorics",
+      "author": "Devansh Jung Khadka",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDVZ_k24xNZaEiRr1RiPh4_IEg_SZ9WSGzBw&s",
+      "pdf": "https://docs.google.com/document/d/1mBr5-cMoz09uyKOH2RxjesGPu8UziCFX/edit",
+      "keywords": ["other", "combinatorics", "tree diagram"]
+    },
+        {
+      "id": "o2",
+      "title": "Assessing the Adverse Health and Environmental Effects of Traditional Household Objects and Practices in Nepali Households: A Case Study on Cooking Material and Storage Methods",
+      "author": "Priya Rana",
+      "cover": "https://media.istockphoto.com/id/1443316357/photo/nepali-traditional-cooking-stove-with-firewood-rice-cooking.jpg?s=170667a&w=0&k=20&c=jdnYOfiYD8v1fHbD8N0XY0nJms2iSaceWgTCeVAQb-w=",
+      "pdf": "https://docs.google.com/document/d/1yb5vF9dZOEzf6-cAvC9VcqLqLExnLhuQS2R2SJqAvPQ/edit?tab=t.0",
+      "keywords": ["other", "health", "environmental effects", "Nepal"]
     }
   ]
 }

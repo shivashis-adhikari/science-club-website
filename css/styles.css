@@ -258,8 +258,8 @@ main {
 }
 
 .team-section .team-member img {
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
